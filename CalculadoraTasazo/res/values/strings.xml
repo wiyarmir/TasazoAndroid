@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, CalculadoraTasazoActivity!</string>
-    <string name="app_name">CalculadoraTasazo</string>
+    <string name="app_name">Calculadora NO al tasazo</string>
+    <string name="maintext">¿Quieres saber cómo te afectará el tasazo? Aquí podrás calcular cuánto te costaría tu matrícula con el nuevo sistema de tasas aprobado por el gobierno. Esta calculadora es válida para todos los estudios de Grado y Postgrado de las Universidades Públicas Andaluzas.</string>
+    <string name="infotext">Para calcular la matrícula del próximo curso, primero hemos tenido que estimar el corte real de un crédito. Según un artículo del diario El País, en Andalucía el coste de la matrícula cubre el 12% del coste real de la misma. Con eso hemos estipulado un valor aproximado de 102€ por crédito para el Grado y 238€ para el Máster o Postgrado. Después hemos aplicado el porcentaje mínimo y máximo que establece el gobierno para cada tipo de matrícula. Los valores, por tanto, son aproximados y dependerá del precio por crédito que se establezca y de los porcentajes que establezca la Junta de Andalucía.
+Más información:
+Lee la opinión oficial del CEEPS y su manifiesto.
+Precios públicos curso 2010/2011
+Precios públicos curso 2011/2012</string>
+    <string name="infoheader">¿Cómo se calcula la matrícula del curso 2012–2013?</string>
 
 </resources>

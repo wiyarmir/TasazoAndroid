@@ -1,12 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:padding="10dp" >
 
-    <TextView
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:gravity="center"
+        android:orientation="vertical" >
 
-</LinearLayout>
+        <TextView
+            style="@android:style/TextAppearance.Holo.Medium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maintext" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/TextNearCreditsBig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Titulación de" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/grado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Grado" />
+
+                    <RadioButton
+                        android:id="@+id/master"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Máster" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/TextNearCredits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Primera matrícula " />
+
+                <EditText
+                    android:id="@+id/numcred1"
+                    style="@style/EditCreditos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <requestFocus />
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/TextNearCredits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Segunda matrícula " />
+
+                <EditText
+                    android:id="@+id/numcred2"
+                    style="@style/EditCreditos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <requestFocus />
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/TextNearCredits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tercera matrícula " />
+
+                <EditText
+                    android:id="@+id/numcred3"
+                    style="@style/EditCreditos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <requestFocus />
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/TextNearCredits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cuarta matrícula " />
+
+                <EditText
+                    android:id="@+id/numcred4"
+                    style="@style/EditCreditos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <requestFocus />
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/calcular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Calcular" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
