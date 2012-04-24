@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <style name="TextNearCredits" parent="@android:style/TextAppearance.Holo.Medium">
         <item name="android:layout_gravity">right|center_vertical</item>
     </style>
