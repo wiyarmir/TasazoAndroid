@@ -10,7 +10,7 @@
     </style>
     <style name="EditCreditos"
         >
-        <item name="android:inputType">number</item>
+        <item name="android:inputType">numberDecimal</item>
         <item name="android:hint">Créditos</item>
     </style>
 

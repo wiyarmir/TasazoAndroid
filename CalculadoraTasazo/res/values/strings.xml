@@ -2,24 +2,19 @@
 <resources>
 
     <string name="app_name">Calculadora NO al tasazo</string>
-    <string name="maintext">¿Quieres saber cómo te afectará el tasazo? Aquí podrás calcular cuánto te costaría tu matrícula con el nuevo sistema de tasas aprobado por el gobierno. Esta calculadora es válida para todos los estudios de Grado y Postgrado de las Universidades Públicas Andaluzas.</string>
+    <string name="maintext">Quieres saber cómo te afectará el tasazo? 
+        Aquí podrás calcular cuánto te costaría tu matrícula con el nuevo sistema de tasas aprobado por el gobierno.
+         Esta calculadora es válida para todos los estudios de Grado y Postgrado de las Universidades Públicas Andaluzas.\n
+         Copiado íntegramente del trabajo de <a href="http://twitter.com/sgomez">@sgomez</a> en <a href="http://consejo-eps.uco.es/tasazo/">CEEPS</a></string>
     <string name="infotext">Para calcular la matrícula del próximo curso, 
-        primero hemos tenido que estimar el corte real de un crédito. 
+        primero hemos tenido que estimar el corte real de un crédito.\n
         Según un artículo del diario El País, en Andalucía el coste de la matrícula 
         cubre el 12% del coste real de la misma. Con eso hemos estipulado un valor 
-        aproximado de 102€ por crédito para el Grado y 238€ para el Máster o Postgrado. 
+        aproximado de 102€ por crédito para el Grado y 238€ para el Máster o Postgrado.\n 
         Después hemos aplicado el porcentaje mínimo y máximo que establece el gobierno 
         para cada tipo de matrícula. Los valores, por tanto, son aproximados y dependerá 
-        del precio por crédito que se establezca y de los porcentajes que establezca la Junta de Andalucía.
-Más información:
-Lee la opinión oficial del CEEPS y su manifiesto.
-Precios públicos curso 2010/2011
-Precios públicos curso 2011/2012</string>
+        del precio por crédito que se establezca y de los porcentajes que establezca la Junta de Andalucía.\n
+Más información:\n<a href="http://consejo-eps.uco.es/universidad/manifiesto-en-contra-de-la-subida-de-tasas-en-la-universidad/">Lee la opinión oficial del CEEPS y su manifiesto.</a>\n<a href="http://www.juntadeandalucia.es/boja/boletines/2010/139/d/updf/d4.pdf">Precios públicos curso 2010/2011</a>\n<a href="http://www.juntadeandalucia.es/boja/boletines/2011/148/d/updf/d1.pdf">Precios públicos curso 2011/2012</a></string>
     <string name="infoheader">¿Cómo se calcula la matrícula del curso 2012–2013?</string>
-    <string name="changelog">En breves dejará de estar disponible la aplicación, debido a que Asco de Vida se ha puesto en contacto con nosotros 
-        para pedirnos su retirada, ya que viola los Términos de Servicio de la página. Eso significa que no podréis bajárosla de nuevo de Google Play
-        ni recibir actualizaciones. Sentimos los inconvenientes. Ha sido 
-        un placer programar para vosotros ;) \nEstad atentos a próximos proyectos vía twitter: 
-        \n<a href="http://twitter.com/oxigenao">@oxigenao</a>        \n<a href="http://twitter.com/wiyarmir">@wiyarmir</a>        \n<a href="http://twitter.com/wosoftandroid">@wosoftandroid</a></string>
 
 </resources>
