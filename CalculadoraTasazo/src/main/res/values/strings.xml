@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculadora del Tasazo</string>
+    <string name="action_share">Compartir</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_scrollable">Calculadora del Tasazo</string>
+    <string name="title_section1">Grado</string>
+    <string name="title_section2">Máster No Habilitante</string>
+    <string name="title_section3">Máster Habilitante</string>
+
+    <string-array name="careers_headers">
+        <item>Nivel de experimentalidad 1</item>
+        <item>Nivel de experimentalidad 2</item>
+        <item>Nivel de experimentalidad 3</item>
+        <item>Nivel de experimentalidad 4</item>
+        <item>Nivel de experimentalidad 5</item>
+    </string-array>
+    <string-array name="careers_array_1">
+        <item>Filologías</item>
+        <item>Humanidades</item>
+        <item>Historia</item>
+        <item>Jurídicas</item>
+        <item>Económico-Empresariales</item>
+    </string-array>
+    <string-array name="careers_array_2">
+        <item>Bellas Artes</item>
+        <item>Geografía</item>
+        <item>Matemáticas</item>
+        <item>Ciencias de la Educación</item>
+    </string-array>
+    <string-array name="careers_array_3">
+        <item>Arquitectura</item>
+        <item>Ingeniería</item>
+    </string-array>
+    <string-array name="careers_array_4">
+        <item>Ciencias Experimentales</item>
+    </string-array>
+    <string-array name="careers_array_5">
+        <item>Ciencias de la Salud</item>
+    </string-array>
+
+    <string name="title_activity_results">Resultados</string>
+    <string name="invalid_data">¡Error! Verifica los datos introducidos</string>
+    <string name="price_warning">Tasas administrativas y seguros no incluidos</string>
+    <string name="invalid_careergroup">Elige el grupo al que pertenezca tu carrera</string>
+    <string name="sharetext">Mi matrícula del curso 2013/2014 va a costar unos </string>
+
+</resources>
