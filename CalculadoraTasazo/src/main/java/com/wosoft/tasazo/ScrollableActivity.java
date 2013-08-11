@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -54,6 +55,7 @@ public class ScrollableActivity extends FragmentActivity {
 
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -61,6 +63,17 @@ public class ScrollableActivity extends FragmentActivity {
         return true;
     }
 
+    @Override
+    public boolean onMenuItemSelected(int featureId, MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_about:
+                Intent i = new Intent(ScrollableActivity.this, AboutActivity.class);
+                startActivity(i);
+                return true;
+            default:
+                return super.onMenuItemSelected(featureId, item);
+        }
+    }
 
     /**
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
@@ -185,14 +198,15 @@ public class ScrollableActivity extends FragmentActivity {
             builder.setView(rootlayout);
 
             diag = builder.create();
-            View rootView = inflater.inflate(R.layout.fragment_scrollable_dummy, container, false);
-            bSpinner = (Button) rootView.findViewById(R.id.spinner);
+            View rootView = inflater.inflate(R.layout.fragment_scrollable, container, false);
+            bSpinner = (Button) rootView.findViewById(R.id.spinner_group);
             bSpinner.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     diag.show();
                 }
             });
+
 
             tCredits1 = (EditText) rootView.findViewById(R.id.editText1);
             tCredits2 = (EditText) rootView.findViewById(R.id.editText2);
@@ -221,7 +235,27 @@ public class ScrollableActivity extends FragmentActivity {
             return rootView;
         }
 
+        @Override
+        public void onDestroy() {
+            if (diag != null) {
+                diag.dismiss();
+            }
+            super.onDestroy();
+        }
+
         private boolean performDataCheck() {
+            if (tCredits1.getText().length() == 0) {
+                tCredits1.setText("0");
+            }
+            if (tCredits2.getText().length() == 0) {
+                tCredits2.setText("0");
+            }
+            if (tCredits3.getText().length() == 0) {
+                tCredits3.setText("0");
+            }
+            if (tCredits4.getText().length() == 0) {
+                tCredits4.setText("0");
+            }
             try {
                 fCredits1 = Float.parseFloat(tCredits1.getText().toString());
                 fCredits2 = Float.parseFloat(tCredits2.getText().toString());

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Calculadora del Tasazo</string>
+    <string name="app_name">Calcula Tasas Universitarias</string>
     <string name="action_share">Compartir</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_scrollable">Calculadora del Tasazo</string>
+    <string name="title_activity_scrollable">Calcula Tasas Universitarias</string>
     <string name="title_section1">Grado</string>
     <string name="title_section2">Máster No Habilitante</string>
     <string name="title_section3">Máster Habilitante</string>
@@ -42,8 +42,14 @@
 
     <string name="title_activity_results">Resultados</string>
     <string name="invalid_data">¡Error! Verifica los datos introducidos</string>
-    <string name="price_warning">Tasas administrativas y seguros no incluidos</string>
+    <string name="price_warning">Tasas administrativas y seguros no incluidos. Se recomienda visualizar en modo apaisado.</string>
     <string name="invalid_careergroup">Elige el grupo al que pertenezca tu carrera</string>
-    <string name="sharetext">Mi matrícula del curso 2013/2014 va a costar unos </string>
+    <string name="sharetext">Mi matrícula del curso 2013/2014 va a costar unos</string>
+    <string name="title_activity_about">Acerca de…</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_text"><![CDATA[ Realizado por <a href="http://twitter.com/wiyarmir">@wiyarmir</a> <br/><br/>
+Basado en el trabajo de <a href="http://twitter.com/sgomez">@sgomez</a> <a href="http://consejo-eps.uco.es/tasazo/">aqu&iacute;</a><br/><br/>
+Cualquier duda, error o sugerencia, contactar en twitter o en <a href="mailto:wosoftandroid@gmail.com">wosoftandroid@gmail.com</a><br/><br/>
+Es posible integrar más comunidades autónomas, basta con que mandéis los precios. <br/><br/> ]]></string>
 
 </resources>
